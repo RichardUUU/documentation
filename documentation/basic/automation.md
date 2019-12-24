@@ -14,7 +14,7 @@ _If you click the link here you will get to the page in HACS for that repository
 
 ```yaml
 automation hacs_new_repo:
-  - alias: Create a notification when somethig is added to HACS
+  - alias: Create a notification when something is added to HACS
     trigger:
       platform: event
       event_type: hacs/repository
@@ -40,7 +40,7 @@ automation hacs_new_repo:
 
 ```yaml
 automation hacs_updates:
-  - alias: Create a notification when there is updates pending in HACS
+  - alias: Create a notification when there are updates pending in HACS
     trigger:
       platform: state
       entity_id: sensor.hacs
